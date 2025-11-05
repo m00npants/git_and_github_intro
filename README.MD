@@ -1,5 +1,4 @@
-# <span style="color:red">**Introduction to Git**</span>
-
+# **Introduction to Git**
 
 
 1. **Navigate to Your Project Directory**  
@@ -67,7 +66,12 @@
    git commit -m "Add .gitignore file"
    git push --all
    ```
-
+12. **Merge branches.**
+   git checkout target-branch
+   git merge source-branch
+   git add .
+   git commit -m "merged old branch with new"
+   git push origin target-branch
 
 
 
