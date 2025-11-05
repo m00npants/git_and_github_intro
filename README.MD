@@ -24,3 +24,5 @@
     9. Use "git branch -M main" followed by "git push -u origin main".
 
     10. Create a .gitignore file and include necessary files and folders to be ignored by git. Alternatively, you can use a template from [here](https://github.com/github/gitignore) or generate one [at](https://www.toptal.com/developers/gitignore).
+
+    11. Stage and commit the .gitignore file using "git add .gitignore" and "git commit -m "Add .gitignore file"".
