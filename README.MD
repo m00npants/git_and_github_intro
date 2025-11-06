@@ -1,6 +1,12 @@
 # **Introduction to Git**
 
+### **Table of Contents**
+1. - #### [Setting Up a New Git Repository](#setting-up-a-new-git-repository)
+2. - #### [Various Git/Github Workflow](#various-gitgihub-workflow)
+      - [*If you are using Microsoft Visual Studio Code*](#microsoft-visual-studio-code)
+      - [Useful Git Commands](#useful-git-commands)
 
+#### **Setting Up a New Git Repository**
 1. **Navigate to Your Project Directory**  
    Open CMD and use the command `cd <directory>`. Alternatively, open a command prompt (cmd) in the project folder.
 
@@ -41,7 +47,7 @@
    ```
 
 7. **Create a New Repository on GitHub**  
-   Navigate to github.com and create a new empty repository. Do not initialize it with a README.md, .gitignore, or license. Copy the repository URL.
+   Navigate to [github.com](https://github.com) and create a new empty repository. Do not initialize it with a README.md, .gitignore, or license. Copy the repository URL.
 
 8. Back in your terminal, add the remote repository URL using the command:
    ```bash
@@ -59,6 +65,7 @@
 10. **Create a .gitignore File**  
    Create a .gitignore file and include necessary files and folders to be ignored by git. Alternatively, you can use a template from [GitHub's gitignore repository](https://github.com/github/gitignore) or generate one [at Toptal's gitignore generator](https://www.toptal.com/developers/gitignore).
 
+
 11. **Stage and Commit the .gitignore File**  
    Stage and commit the .gitignore file using:
    ```bash
@@ -75,5 +82,12 @@
    git push origin target-branch
    ```
 
+# Various Git/Github Workflow
 
+## Microsoft Visual Studio Code
+   If you are using Visual Studio Code, you can install the [GitLens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) to help with git commands and visualizations. This will let you see changes, commits, branches, and more directly in the editor.
+   
+   There is also a [markdown preview extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced "Markdown Preview Enhanced") that will let you preview markdown files in vscode.
 
+## Useful Git Commands
+the `<link to file>` provides a couple of useful git commands for various tasks.
